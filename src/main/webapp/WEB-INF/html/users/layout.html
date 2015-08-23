@@ -17,7 +17,7 @@
     </thead>
     <tbody>
         <tr ng-repeat="user in users">
-            <td  style="width:70px;text-align:center;"><button class="btn btn-mini btn-danger" ng-click="removeUser(user)">Remove</button></td>
+            <td  style="width:70px;text-align:center;"><button class="btn btn-mini btn-danger" ng-click="removeUser(user.userName)">Remove</button></td>
             <td>{{user}}</td>
         </tr>
     </tbody>
